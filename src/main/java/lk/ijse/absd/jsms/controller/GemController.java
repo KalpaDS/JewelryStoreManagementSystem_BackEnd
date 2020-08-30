@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/gems")
+@RequestMapping(value = "/api/v1/gems")
 public class GemController {
 
     @Autowired

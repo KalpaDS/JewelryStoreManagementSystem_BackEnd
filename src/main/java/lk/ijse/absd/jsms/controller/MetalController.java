@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/metals")
+@RequestMapping(value = "/api/v1/metals")
 public class MetalController {
     @Autowired
     private MetalService metalService;

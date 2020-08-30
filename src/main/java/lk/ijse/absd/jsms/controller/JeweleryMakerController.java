@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/makers")
+@RequestMapping(value = "/api/v1/makers")
 public class JeweleryMakerController {
     @Autowired
     private JeweleryMakerService jewelryMakerService;
